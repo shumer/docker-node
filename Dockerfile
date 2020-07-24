@@ -8,6 +8,7 @@ RUN set -xe; \
     mc \
     python \
     bash \
-    g++
+    g++ && \
+    mkdir /tmp/app
 
 WORKDIR /tmp/app
