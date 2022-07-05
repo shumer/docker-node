@@ -1,7 +1,8 @@
-FROM mhart/alpine-node:8
+FROM node:18.4.0-alpine3.16
 USER root
 
 RUN set -xe; \
+    apk update \
     apk add --update --no-cache \
     make \
     jq \
