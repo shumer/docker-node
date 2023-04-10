@@ -1,4 +1,4 @@
-FROM node:18.4.0-alpine3.16
+FROM node:12.22.12-alpine3.15
 USER root
 
 RUN set -xe; \
